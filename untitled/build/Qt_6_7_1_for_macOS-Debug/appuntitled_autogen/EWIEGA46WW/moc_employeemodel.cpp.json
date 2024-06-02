@@ -1,0 +1,48 @@
+{
+    "classes": [
+        {
+            "className": "EmployeeModel",
+            "methods": [
+                {
+                    "access": "public",
+                    "name": "saveEmployeeListModelToFile",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "inputFile",
+                    "notify": "inputFileChanged",
+                    "read": "inputFile",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setInputFile"
+                }
+            ],
+            "qualifiedClassName": "EmployeeModel",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "inputFileChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "employeemodel.h",
+    "outputRevision": 68
+}

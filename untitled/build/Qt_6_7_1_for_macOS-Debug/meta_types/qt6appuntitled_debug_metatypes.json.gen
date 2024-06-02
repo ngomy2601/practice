@@ -1,0 +1,114 @@
+[
+    {
+        "classes": [
+            {
+                "className": "EmployeeModel",
+                "methods": [
+                    {
+                        "access": "public",
+                        "name": "saveEmployeeListModelToFile",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "inputFile",
+                        "notify": "inputFileChanged",
+                        "read": "inputFile",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setInputFile"
+                    }
+                ],
+                "qualifiedClassName": "EmployeeModel",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "inputFileChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "employeemodel.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "TodoModel",
+                "methods": [
+                    {
+                        "access": "public",
+                        "name": "addItem",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "removeItem",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "saveTodoListModelToFile",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "inputFile",
+                        "notify": "inputFileChanged",
+                        "read": "inputFile",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setInputFile"
+                    }
+                ],
+                "qualifiedClassName": "TodoModel",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "inputFileChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "todomodel.h",
+        "outputRevision": 68
+    }
+]

@@ -1,0 +1,2 @@
+/Users/ngomy2001/Desktop/STUDY/QT/untitled/build/Qt_6_7_1_for_macOS-Debug/appuntitled_autogen/include/../EWIEGA46WW/moc_employeemodel.cpp.json
+/Users/ngomy2001/Desktop/STUDY/QT/untitled/build/Qt_6_7_1_for_macOS-Debug/appuntitled_autogen/include/../EWIEGA46WW/moc_todomodel.cpp.json

@@ -1,0 +1,12 @@
+{
+    "todoList": [
+        {
+            "noidung": "eeee",
+            "trangthai": false
+        },
+        {
+            "noidung": "bbbb",
+            "trangthai": true
+        }
+    ]
+}
